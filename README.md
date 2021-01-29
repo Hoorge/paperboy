@@ -68,7 +68,5 @@ For now it captures information from the following data sources:
 5. Sit back for few minutes while it captures information and sanitizes it.
 6. Output would be generated in an HTML file (I'm planning to write more plugins like Markdown\Email etc, but for now we only have HTML)
 7. If you open the HTML file you'll see output like this 👇
-
-    ![](./img/animation.gif)
     
     [![](https://img.youtube.com/vi/M-N0OJy6WtI/0.jpg)](https://www.youtube.com/watch?v=M-N0OJy6WtI)
