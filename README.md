@@ -2,6 +2,8 @@
 
 CLI newsletter generator on basis of keywords like "powershell", "azure", "aws"
 
+For now it captures information from the following data sources:
+
 * Editor picks: blogs, articles, podcast
 * Trending Repositories on @Github
 * Trending Developers on @Github
@@ -10,13 +12,12 @@ CLI newsletter generator on basis of keywords like "powershell", "azure", "aws"
 * New on @YouTube
 * Bestseller books on @leanpub
 
+<hr>
+
+## How it works?
+
 ![How it work?](./img/idea.png)
 
-* Experimental (*Work in progress)
-* Not tested on Linux\Mac (Will be done gradually)
-* Heavily uses:
-    * Python for API calls, web automation and scrapping
-    * Powershell is used to sanitize the data and acts as glue to bring everything together
 <hr>
 
 ## Requirements
@@ -27,8 +28,14 @@ CLI newsletter generator on basis of keywords like "powershell", "azure", "aws"
 
 <hr>
 
-## How it works?
+## Please Note
 
+* Experimental (*Work in progress)
+* Expect bugs in the code, still a very early stage of this project
+* Not tested on Linux\Mac (Will be done gradually)
+* Heavily uses:
+    * Python for API calls, web automation and scrapping
+    * Powershell is used to sanitize the data and acts as glue to bring everything together
 
 <hr>
 
@@ -62,7 +69,4 @@ CLI newsletter generator on basis of keywords like "powershell", "azure", "aws"
 6. Output would be generated in an HTML file (I'm planning to write more plugins like Markdown\Email etc, but for now we only have HTML)
 7. If you open the HTML file you'll see output like this 👇
 
-<hr>
-
-<h2>Please Note</h2>
-
+    ![](./img/animation.gif)

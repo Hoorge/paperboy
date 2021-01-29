@@ -20,9 +20,6 @@ from googleapiclient.errors import HttpError
 # Please ensure that you have enabled the YouTube Data API for your project.
 
 def youtube_search(options):
-    # DEVELOPER_KEY = 'AIzaSyA30l8KSuXItQGDWVeBAAauZpXPaHhgfco'
-    # YOUTUBE_API_SERVICE_NAME = 'youtube'
-    # YOUTUBE_API_VERSION = 'v3'
     youtube = build(
         options.youtube_api_service_name,
         options.youtube_api_version,
